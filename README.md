@@ -32,7 +32,7 @@ This project enables users to write, run, and test code instantly—no local set
 ## 🛠️ Tech Stack
 
 - **Frontend:** React.js
-- **Cloud Execution:** AWS Lambda
+- **Cloud Execution:** AWS 
 - **Database:** MongoDB (optional, for user data and code snippets)
 
 ---
@@ -46,7 +46,7 @@ This project enables users to write, run, and test code instantly—no local set
     - COMPILER: `cd compiler && npm install`
 
 3. **Configure API:**  
-    - Update API endpoints in backend
+    - Update API endpoints in index.html
 
 4. **Run locally:**  
     - Start: `npm run dev` 
