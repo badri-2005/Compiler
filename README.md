@@ -1,16 +1,58 @@
-# React + Vite
+# 🖥️ Online Compiler
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An **Online Compiler** built using the **MERN Stack** and integrated with **Amazon AWS Lambda** for secure, scalable code execution directly in the browser.  
+This project enables users to write, run, and test code instantly—no local setup required.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- ✍️ Code editor with syntax highlighting 
+- ▶️ Supports multiple programming languages (e.g., C++, Python, JavaScript)
+- 📜 Displays compiler output and error messages
+- ⚡ Real-time execution results
+- 🔒 Secure code execution in isolated AWS Lambda environments
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+/D:/Projects/CodeEditor/Compiler/
+├── client/           # React.js frontend (code editor UI)
+│   ├── src/
+│   └── public/
+├── index.html        # Main Page for Running the Compiler 
+├── README.md         # Project documentation
+└── package.json      # Project dependencies
+```
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js
+- **Cloud Execution:** AWS Lambda
+- **Database:** MongoDB (optional, for user data and code snippets)
+
+---
+
+## 📦 Getting Started
+
+1. **Clone the repository:**  
+    `git clone https://github.com/badri-2005/compiler.git`
+
+2. **Install dependencies:**  
+    - COMPILER: `cd compiler && npm install`
+
+3. **Configure API:**  
+    - Update API endpoints in backend
+
+4. **Run locally:**  
+    - Start: `npm run dev` 
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License and opend for collabaration.
